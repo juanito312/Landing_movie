@@ -1,0 +1,50 @@
+:root {
+    color-scheme: light dark;
+    --color-primary: #000;
+    --color-secondary: #fff;
+    --color-tertiary: #7b2cbf;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-primary);
+    display: grid;
+    place-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    margin: 0;
+
+}
+
+p {
+    color: var(--color-secondary);
+    font-size: 1rem;
+    margin: 0;
+}
+
+span {
+    color: var(--color-tertiary);
+    font-size: 1rem;
+    margin: 0;
+    text-decoration: underline;
+}
+
+img {
+    margin: 0 auto;
+}
